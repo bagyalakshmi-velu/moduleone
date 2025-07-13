@@ -1,0 +1,145 @@
+
+
+
+
+/*hero section*/
+
+.hero-section {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
+              url('https://wallpaperbat.com/img/9003687-full-stack-developer.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+}
+
+.hero-section p {
+  font-size: 1.25rem;
+}
+
+
+
+
+
+
+/*about section*/
+img {
+  border-radius: 10px;
+}
+#resume{
+  background-color: #220b57;
+
+}
+.carousel-inner{
+  background-color: #220b57;
+}
+.timeline{
+  background-color: rgb(50, 205, 171);
+}
+
+
+
+
+/*skill section*/
+#skills .card {
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: rgb(234, 187, 231);
+}
+
+/*project section*/
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-footer .btn {
+  width: 48%;
+}
+
+/*resume section*/
+/* Timeline Section */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+  border-left: 3px solid #fd0de9;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -9px;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  background-color: #ed0dfd;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px #0d6efd;
+}
+
+.timeline-content {
+  background: #f8f9fa;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.timeline-content h5 {
+  margin-bottom: 5px;
+}
+
+.timeline-content small {
+  color: #6c757d;
+  display: block;
+  margin-bottom: 10px;
+}
+
+
+/*testimonial*/
+#testimonials .card {
+  border-radius: 12px;
+  padding: 20px;
+}
+/*contact form*/
+#contact h5 {
+  margin-top: 20px;
+}
+
+/*footer*/
+footer a:hover {
+  color: #0d6efd;
+  transition: color 0.3s ease;
+}
+.fa-linkedin{
+  font-size: 40px;
+  padding-right: 10px;
+}
+.fa-github{
+  font-size: 40px;
+}
+
+
+
+
+#resume table {
+  font-size: 0.95rem;
+}
+
+#resume th, #resume td {
+  vertical-align: middle;
+}
+
+
+
+
+
